@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "stm32c5-evaluation-board-footprints") (type "KiCad") (uri "${KIPRJMOD}") (options "") (descr ""))
+	(lib (name "stm32c5-evaluation-board-footprints") (type "KiCad") (uri "${KIPRJMOD}/stm32c5-evaluation-board-footprints.pretty") (options "") (descr ""))
+)

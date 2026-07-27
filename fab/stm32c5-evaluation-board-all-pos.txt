@@ -1,0 +1,45 @@
+### Footprint positions - created on 2026-05-21T19:56:50 ###
+### Printed by KiCad version 10.0.3
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val              Package                                                       PosX       PosY       Rot  Side
+J2        Conn_01x16_Pin   PinHeader_1x16_P2.54mm_Vertical                             7.5000     2.3800  -90.0000  bottom
+J3        Conn_01x16_Pin   PinHeader_1x16_P2.54mm_Vertical                             7.5000    17.6200  -90.0000  bottom
+C1        100n             C_0402_1005Metric                                          10.1200    11.3500  180.0000  top
+C2        100n             C_0402_1005Metric                                          10.6000    13.9050   90.0000  top
+C3        4u7              C_0805_2012Metric                                          12.3000    12.9500   90.0000  top
+C4        100n             C_0402_1005Metric                                          18.4825    10.2000    0.0000  top
+C5        4u7              C_0805_2012Metric                                          15.4000    14.0000  180.0000  top
+C6        100n             C_0402_1005Metric                                          33.7500     7.9000  -135.0000  top
+C7        100n             C_0402_1005Metric                                          27.4500     3.9600    0.0000  top
+C8        100n             C_0402_1005Metric                                          21.1906    11.7506  -135.0000  top
+C9        4u7              C_0805_2012Metric                                          18.5000    13.3000   90.0000  top
+C10       100n             C_0402_1005Metric                                          20.7000     6.5300  -90.0000  top
+C11       100n             C_0402_1005Metric                                          20.0000    10.1000   90.0000  top
+C12       2u2              C_0603_1608Metric                                          21.0150    13.4800    0.0000  top
+C13       100n             C_0402_1005Metric                                          32.1194    15.0394    0.0000  top
+C14       100n             C_0402_1005Metric                                          44.9000     4.8000    0.0000  top
+C15       6p               C_0402_1005Metric                                          38.4000    14.4000   90.0000  top
+C16       6p               C_0402_1005Metric                                          34.2750    14.1700   90.0000  top
+C17       20p              C_0402_1005Metric                                          39.2900    10.1300  -90.0000  top
+C18       20p              C_0402_1005Metric                                          34.0700    10.1200  -90.0000  top
+D1        USBLC6-2SC6      SOT-23-6                                                   11.3375     8.9500    0.0000  top
+D2        GR               LED_0402_1005Metric                                        44.8850    15.7000    0.0000  top
+D3        RD               LED_0402_1005Metric                                        35.9925     6.4075  -90.0000  top
+J1        USB4105-GF-A     USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal     3.8000    10.0000  -90.0000  top
+J4        Conn_01x05_Pin   PinHeader_1x05_P2.54mm_Horizontal                          49.5000    15.0800    0.0000  top
+R1        5k1              R_0402_1005Metric                                           4.7400     4.0000  180.0000  top
+R2        5k1              R_0402_1005Metric                                           4.7500    16.0000  180.0000  top
+R3        0R               R_0402_1005Metric                                           9.5000    12.9100   90.0000  top
+R4        220R             R_0402_1005Metric                                          42.6900    15.7000  180.0000  top
+R5        10k              R_0402_1005Metric                                          38.7000     6.4000  180.0000  top
+R6        10k              R_0402_1005Metric                                          32.5200     6.0200  -45.0000  top
+R8        220R             R_0402_1005Metric                                          37.0925     6.4175   90.0000  top
+SW1       EVQ-P2K02Q       SW_SPST_EVQP2_MiddlePushTravel_H2.5mm                      44.0250    12.9500  180.0000  top
+SW2       EVQ-P2K02Q       SW_SPST_EVQP2_MiddlePushTravel_H2.5mm                      44.0000     7.8000  180.0000  top
+U1        SPX3819M5-L-3-3  SOT-23-5                                                   15.4625    11.1500    0.0000  top
+U2        CH340E           MSOP-10_3x3mm_P0.5mm                                       16.8625     7.6000    0.0000  top
+U3        STM32C551CET6    LQFP-48_7x7mm_P0.5mm                                       27.5000    10.0000  -135.0000  top
+X1        24MHz            Crystal_SMD_2016-4Pin_2.0x1.6mm                            36.3500    14.0750  180.0000  top
+X2        32kHz768         Crystal_SMD_3215-2Pin_3.2x1.5mm                            36.6800    10.1100    0.0000  top
+## End
