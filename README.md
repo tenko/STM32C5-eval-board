@@ -28,9 +28,9 @@ is needed here.
 
 **Testing**
 
-<video src="board-testing.webm" autoplay loop muted playsinline width="100%"></video>
+[board-testing.webm](https://github.com/user-attachments/assets/a6211ade-eac5-4887-8b39-223c8f42b538)
 
-The board has been verified to work correctly with the uart-to-usb bride, leds, buttons
+The board has been verified to work correctly with the uart-to-usb bridge, leds, buttons
 and crystals working correctly. The only minor issue was that the SWDIO and clock pin
 was swapped. This will be fixed in a future revision along with any other issue.
 
