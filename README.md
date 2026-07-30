@@ -21,10 +21,9 @@ when this board was created. When other variants with *LQFP-48* footprints is av
 with the layout of this board.
 
 **Pinout** 
+<img width="1240" height="1754" alt="stm32c5-evaluation-board-pinout" src="https://github.com/user-attachments/assets/db8b2e88-2932-41d7-97e5-1e8a8a481122" />
 
-<img width="1240" height="1754" alt="stm32c5-evaluation-board-pinout" src="https://github.com/user-attachments/assets/df42aa17-1694-4b66-a82b-5cc468259c86" />
-
-For pin alternative function definitions it is recommended to use the *STMicroelectronics* application *CubeMX2*.
+For complete pin alternative function definitions it is recommended to use the *STMicroelectronics* application *CubeMX2*.
 
 **Production**
 
@@ -101,6 +100,7 @@ This will be fixed in a future revision along with any other issue.
 - Fix *SWD CLK/DIO* swap on silkscreen and schematic.
 - Possible expose *BOOT0* with a test point on PCB.
 - Possible add PCB jumper to disconnect power led for battery operations.
+- Review pins used for user button/led and usb-to-uart.
 
 **Sponsors** 
 
