@@ -1,6 +1,6 @@
 # STM32C5-eval-board
 
-Custom STM32C5 board in the breadboard friendly BluePill format designed in Kicad v10.
+Custom *STM32C5* board in the breadboard friendly *BluePill* format designed in *Kicad v10*.
 
 **Features**
 
@@ -16,15 +16,15 @@ Custom STM32C5 board in the breadboard friendly BluePill format designed in Kica
 
 **Note** 
 
-This MCU familiy is quite new and therefore not all variants of this MCU was available with the usual suppliers
-when this board was created. When other variants with LQFP-48 footprints is available this should be pin compatible
+This MCU family is quite new and therefore not all variants of this MCU was available with the usual suppliers
+when this board was created. When other variants with *LQFP-48* footprints is available this should be pin compatible
 with the layout of this board.
 
 **Pinout** 
 
 <img width="1240" height="1754" alt="stm32c5-evaluation-board-pinout" src="https://github.com/user-attachments/assets/df42aa17-1694-4b66-a82b-5cc468259c86" />
 
-For pin alternative function definitions it is recommended to use the STMicroelectronics application CubeMX2.
+For pin alternative function definitions it is recommended to use the *STMicroelectronics* application *CubeMX2*.
 
 **Production**
 
@@ -32,14 +32,14 @@ Production files adapted to [PCBWay](https://www.pcbway.com/) recommendations is
 
 **Firmware**
 
-As this is a new MCU familiy I could only get the STMicroelectronics original software
-and hardware to work with flashing the device. SEGGER's J-Link Debug Probe will also
-probably support this MCU familiy.
+As this is a new MCU family I could only get the *STMicroelectronics* original software
+and hardware to work with flashing the device. *SEGGER's J-Link* Debug Probe will also
+probably support this MCU family.
 
-In the *firmware* folder there is a project file for CubeMX2. By opening this file
-it as matter of generate the CMake project files.
+In the *firmware* folder there is a project file for *CubeMX2*. By opening this file
+it as matter of generate the *CMake* project files.
 
-I used VSCode and the CubeMX extension to open the generated CMake project files and
+I used *VSCode* and the *CubeMX* extension to open the generated *CMake* project files and
 added the following test code for a simple blinker application:
 
 ```C++
@@ -56,11 +56,11 @@ while (1) {
 
 **Alternative Firmware in Oberon-2**
 
-As an alternative to C/C++ the [ECSOberon](https://ecs.openbrace.org/) language and the
+As an alternative to *C/C++* the [ECSOberon](https://ecs.openbrace.org/) language and the
 [ECSMicroLib](https://github.com/tenko/ECSMicroLib/) framework can be used to develop
 firmware for this board.
 
-ECSOberon has a number of benefits for MCU applications:
+**ECSOberon** has a number of benefits for MCU applications:
 
 - Simplest possible language (the [language report](https://github.com/OberonSystem3/TheOberonCompanionCD/blob/main/Papers/Oberon2.pdf?raw=true) is 20 pages), yet supporting 
   object oriented design with single inheritance.
@@ -71,9 +71,9 @@ ECSOberon has a number of benefits for MCU applications:
 - The module and package concept keeps the code cleanly segregated and avoid the problem with colliding names in C.
 - The [documentation](https://ecs.openbrace.org/manual/) is excellent and reported bugs is fixed quickly.
 
-The drawback of ECSOberon:
+The drawback of **ECSOberon**:
 
-- Oberon-2 is a verbose language and require upper case keyword.
+- *Oberon-2* is a verbose language and require upper case keyword.
   However with an IDE and auto-completion this is a minor issue in my opinion.
 - No support for a pre-processor. Some cases can be solved with help of templates, but otherwise
   this must be solved with shell scripts.
@@ -91,15 +91,15 @@ The board has been verified to work correctly with the uart-to-usb bridge, leds,
 
 Minor issues:
 
-- The SWDIO and SWDCLK pin was swapped.
+- The *SWDIO* and *SWDCLK* pin was swapped.
 - The silkscreen was difficult to read.
 
 This will be fixed in a future revision along with any other issue.
 
 **TODO** 
 
-- Fix SWD CLK/DIO swap on silkscreen and schematic.
-- Possible expose BOOT0 with a test point on PCB.
+- Fix *SWD CLK/DIO* swap on silkscreen and schematic.
+- Possible expose *BOOT0* with a test point on PCB.
 - Possible add PCB jumper to disconnect power led for battery operations.
 
 **Sponsors** 
@@ -112,8 +112,8 @@ in quick and professional way in my experience. Thanks.
 This board was developed and with help of and inspiration by the excellent instruction videos on the [Phil's Lab](https://www.youtube.com/@PhilsLab)
 Youtube channel.
 
-Also initially skeptical to KiCAD software, it turned out to be a very nice experience working with this application.
-The team behind KiCAD does an excellent job in turning this application into a professional tool.
+Also initially skeptical to *KiCAD* software, it turned out to be a very nice experience working with this application.
+The team behind *KiCAD* does an excellent job in turning this application into a professional tool.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
