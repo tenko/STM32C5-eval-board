@@ -59,27 +59,27 @@ As an alternative to *C/C++* the [ECSOberon](https://ecs.openbrace.org/) languag
 [ECSMicroLib](https://github.com/tenko/ECSMicroLib/) framework can be used to develop
 firmware for this board.
 
-**ECSOberon** has a number of benefits for MCU applications:
+*ECSOberon* has a number of benefits for MCU applications:
 
 - Simplest possible language (the [language report](https://github.com/OberonSystem3/TheOberonCompanionCD/blob/main/Papers/Oberon2.pdf?raw=true) is 20 pages), yet supporting 
   object oriented design with single inheritance.
-- The language has the bit SET type which makes fiddling with bit register of the MCU very easy and natural.
-- The ECSOberon language is updated with manual allocation, unsigned types, variable pointers, packages and simple templates.
-  Making the language more practical for system programming and MCUs than the original Oberon-2 implementation.
+- The language has the bit *SET* type which makes fiddling with bit register of the *MCU* very easy and natural.
+- The *ECSOberon* language is updated with manual allocation, unsigned types, variable pointers, packages and simple templates.
+  Making the language more practical for system programming and *MCUs* than the original *Oberon-2* implementation.
 - No header files to worry about. The visibility of the code elements is defined directly in the module.
-- The module and package concept keeps the code cleanly segregated and avoid the problem with colliding names in C.
+- The module and package concept keeps the code cleanly segregated and avoid the problem with colliding names in *C*.
 - The [documentation](https://ecs.openbrace.org/manual/) is excellent and reported bugs is fixed quickly.
 
-The drawback of **ECSOberon**:
+The drawbacks of *ECSOberon*:
 
 - *Oberon-2* is a verbose language and require upper case keyword.
-  However with an IDE and auto-completion this is a minor issue in my opinion.
+  However with an *IDE* and auto-completion this is a minor issue in my opinion.
 - No support for a pre-processor. Some cases can be solved with help of templates, but otherwise
   this must be solved with shell scripts.
   However this omission keeps the code base readable in my opinion.
 - Not much existing code exists and many things must be implemented from scratch.
-  I have a project [ECSStdLib](https://github.com/tenko/ECSStdLib/) covering some basic areas for me.
-  Also much code from the original [OberonSystem 3](https://github.com/OberonSystem3) can be reused.
+  Code from the original [OberonSystem 3](https://github.com/OberonSystem3) or from [BlackBox Component Builder](https://blackbox.oberon.org/) could be reused.
+  
   This is the major drawback in my opinion.
 
 **Testing**
